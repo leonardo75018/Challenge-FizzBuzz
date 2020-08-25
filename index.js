@@ -1,5 +1,5 @@
 
-
+//Mon Bricolage 
 
 // // function modulo(number1, number2) {
 
@@ -23,7 +23,7 @@ var c = 15;
 var d = 1.34;
 
 
-casseTête(d)
+casseTête(c)
 
 function casseTête(chiffre) {
 
@@ -31,7 +31,7 @@ function casseTête(chiffre) {
         console.log("FizzBuzz " + "le résulat de " + chiffre + "/3 =" + (chiffre / 3) + " et " + + chiffre + "/5 =" + (chiffre / 5))
     }
     else if (chiffre % 3 === 0) {
-        console.log("Buzz " + "le résulat de " + chiffre + "/3 =" + (chiffre / 3))
+        console.log("fizz " + "le résulat de " + chiffre + "/3 =" + (chiffre / 3))
     }
 
 
@@ -39,9 +39,7 @@ function casseTête(chiffre) {
         console.log("Buzz " + "le résulat de " + chiffre + "/5 =" + (chiffre / 3))
     }
 
-    else if (chiffre % 3 & 5 === 0) {
-        console.log("FizzBuzz " + "le résulat de " + chiffre + "/5 =" + (chiffre / 3) + (chiffre / 5))
-    }
+
 
 
     else {
